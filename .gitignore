@@ -2,3 +2,6 @@
 *.bmp
 *.png
 *.ipynb_checkpoints
+*.tif
+*.mov
+*.mp4

@@ -1,4 +1,4 @@
-String img = "46";
+String img = "18";
 int x = 70;//70;  // -1
 int y = 10;//45; // -1
 PImage [] frames = new PImage[x*y];
@@ -44,4 +44,5 @@ void draw() {
     i = 0;
   // println(i%x);
   popMatrix();
+  saveFrame("frames/###.tif");
 }
